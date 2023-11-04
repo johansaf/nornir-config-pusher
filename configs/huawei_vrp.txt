@@ -1,0 +1,5 @@
+undo acl name mgmt
+acl name mgmt
+ rule 0 permit source 192.0.2.123 0.0.0.0
+ rule 0 description jumpbox
+ rule 999 deny

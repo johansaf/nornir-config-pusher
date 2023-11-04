@@ -1,0 +1,5 @@
+no ip access-list standard mgmt
+ip access-list standard mgmt
+ remark jumpbox
+ permit 192.0.2.123 0.0.0.0
+!

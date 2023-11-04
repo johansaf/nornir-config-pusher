@@ -1,0 +1,12 @@
+---
+connection_options:
+  napalm:
+    username: ""
+    password: ""
+    extras:
+      optional_args:
+        conn_timeout: 60
+        read_timeout_override: 180
+        fast_cli: false
+        verbose: false
+        ssh_config_file: "~/.ssh/config"
